@@ -5,11 +5,11 @@
 ### Usage
 ```bash
 $ ruby sensor_evaluator.rb
-$ ruby sensor_evaluator.rb -f path/to/file/to/be/read
+$ ruby sensor_evaluator.rb -f /path/to/file/to/be/read
 $ ruby sensor_evaluator.rb --file=path/to/file/to/be/read
 ```
 
-**NOTE**: `-f`/`--file` defaults to `docs/sensors.log`
+**NOTE**: `-f`/`--file` defaults to `/path/to/wiged-365-app/docs/sensors.log`
 
 ### Options
 ```bash
@@ -30,5 +30,5 @@ task :test do
 end
 ```
 
-To run test use `rake test`.
+To run the tests use `rake test`.
 
